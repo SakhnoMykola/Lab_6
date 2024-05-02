@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    background: #ededf2;
+}
+.page{
+    display: flex;
+    width: 1050px;
+    min-height: 850px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: #fff;
+    font-family: Arial;
+}
+.column{
+    width: 300px;
+    min-height: 800px;
+    border-radius: 20px;
+    background: #f4f8f9;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 45px;
+    background: url("https://img.freepik.com/free-photo/emotions-and-people-concept-headshot-of-serious-looking-handsome-man-with-beard-looking-confident-and-determined_1258-26730.jpg") 
+    center center / cover;
+    margin: 100px 50px;
+}
+.info{
+    margin: -100px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    font-family: Arial;
+    font-size: 25px;
+    color: #666;
+}
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:#666;
+	background-color: #e9edf0;
+    font-size: 20px;
+    width: 100px;
+    height: 20px;
+	border-radius: 15px;
+    padding: 5px;
+    margin: -10px;
+}
+.hero_links{
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    margin: 30px;
+}
+.inf{
+    display: flex;
+    flex-direction: column;
+}
+.inf img {
+    font-family: Arial;
+    color: #666;
+    width: 20px;
+    height: 20px;
+    margin: -5px 20px;
+}
+.inf p{
+    font-size: 15px;
+    margin-top: -15px;
+}
+.cv{
+    display: block;
+	width: 130px;
+	height: 30px;
+	background-color: #304cfd;
+    font-size: 15px;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	margin-top: -20px;
+	cursor: pointer;
+}
+.cv:hover {
+	background-color: #280fbb;
+}
+.main {
+	flex: 1;
+}
+.pages{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.page-item {
+    font-family: Arial;
+    color: #666;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+}
+.about{
+    border-radius: 10px;
+    background-color: #304cfd;
+    color: #fff;
+}
+h1, h2{
+    font-family: Arial;
+    color: #666;
+    margin: 35px;
+    margin-top: 20px;
+}
+.line{
+    margin: -20px;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #ffa06e 35%, #304cfd 30%);
+    margin-left: 35px;
+}
+p{
+    margin: 35px;
+    color: #666;
+}
+.grid {
+    display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: repeat(2, 55%);
+	grid-gap: 30px;
+    font-family: Arial;
+	color:#666;
+	padding: 35px;
+	margin: 40px;
+    margin-top: -45px;
+}
+.grid-item {
+	color:#666;
+	background-color: #fff;
+	box-shadow: 0 0 10px #0000001a;
+	border-radius: 30px;
+	text-align: center;
+}
